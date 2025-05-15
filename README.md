@@ -1,12 +1,41 @@
-# React + Vite
+Caursemenia – E-Learning Platform (Frontend)
+Caursemenia is a live e-learning web application built using React.js. This project was developed as part of my internship at CGPI Foundation, where I contributed to the frontend development, including routing, layout, and responsive design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚀 Features
+📚 Course listing and navigation UI
+🔀 Page routing using React Router
+🧩 Reusable and modular components
+📱 Responsive design for mobile and desktop
+⚡ Smooth user experience with clean layout
+🛠️ Technologies Used
+React.js
+React Router DOM
+JavaScript (ES6+)
+HTML5 & CSS3
+[Optional: Tailwind CSS / Bootstrap – include if used]
+📂 Folder Structure
+frontend/ 
+├── public/ 
+│ └──index.html 
+│ └──favicon.ico 
+│ └──logo.png 
+│ 
+├──src/ 
+│ ├──assets/ 
+│ │ └──images/ 
+│ │ └──icons/ 
+│ │ └──videos/ 
+│ │ 
+│ ├──components/ 
+│ │ └──common/ 
+│ │ └──Navbar.jsx 
+│ │ └──Footer.jsx 
+│ │ └──Loader.jsx
+│ │ │
+│ │ └──course/
+│ │ └──CourseCard.jsx
+│ │ └──CourseList.jsx
+│ │ └──VideoPlayer.jsx
+│ │
+│ ├──pages/
+│ │ └──Home.jsx
